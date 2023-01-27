@@ -9,6 +9,9 @@
         <title>Projeto módulo 1 (HTML E CSS</title>
     </head>
     <body class="body">
+        <div class="statusbar">
+            <img src="./assets/img/Status Bar.png" alt="status">
+        </div>
         <header id="container">
             <div id="img-logo">
                 <img src="./assets/img/Logo.png" alt="logotipo">
@@ -31,7 +34,7 @@
             </div>
         </header>
         <section>
-            <form>
+            <form class="transaction form">
                 <label for="sale">Tipo de transação</label><br>
                 <select id="sale" name="sale">
                   <option value="Compra">Compra</option>
@@ -40,8 +43,16 @@
                 <label for="name">Nome da mercadoria</label><br>
                 <input type="text">
                 </select> 
+                <br>
+                <p>Valor</p>
+                <input value="R$ 0,00">
+                <br>
+                <button class="adicionar" type="submit">Adiciona transação</button>
             </form>
-           
+        <hr class="line">
         </section>
     </body>
+    <footer>
+
+    </footer>
 </html>
