@@ -1,0 +1,13 @@
+body {
+    margin: auto;
+}
+
+.menu {
+    position: absolute;
+width: 350px;
+height: 40px;
+right: 0px;
+top: 20px;
+font-family: lato;
+background: #FFFFFF
+}
