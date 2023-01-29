@@ -177,15 +177,13 @@ color: #333333;
     left: 0px;
     top: 29px;
     
-    /* @font-size-base: 14px */
-    
+      
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 157% */
-    
+       
     display: flex;
     align-items: center;
     
@@ -198,44 +196,8 @@ left: 3.72%;
 right: 3.72%;
 top: 84.59%;
 bottom: 5.81%;
-}
-
-.bttransação {
-    position: absolute;
-height: 32px;
-left: 0%;
-right: 0%;
-top: 0.78px;
 box-sizing: border-box;
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #333333;
-border-radius: 4px;
-}
-
-.subtransação{
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
 }
 
 .mercadoria {
@@ -307,7 +269,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 22px;
-/* or 122% */
 
 text-align: center;
 
@@ -334,8 +295,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* or 157% */
-
 
 color: #333333;
 }
@@ -352,6 +311,28 @@ color: #333333;
     border-radius: 4px;
 }
 
+.adicionar {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #333333;
+    border-radius: 4px;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
 
 
 footer {
