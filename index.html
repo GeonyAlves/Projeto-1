@@ -14,7 +14,7 @@
             <div class="container-topo">
                 <div class="LogoEtexto">
                     <div class="img-logo">
-                        <img src="./assets/img/Logo.png" alt="logotipo">
+                        <img src="./assets/img/Ellipse 13.png" alt="logotipo">
                     </div>
 
                     <div class="texto-logo">
@@ -34,24 +34,29 @@
                 </div>
             </div>
         </header>
-        <section>
-            <form class="transaction form">
-                <label for="sale">Tipo de transação</label><br>
-                <select id="sale" name="sale">
-                  <option value="Compra">Compra</option>
-                  <option value="Venda">Venda</option>
-                </select><br>
-                <label for="name">Nome da mercadoria</label><br>
-                <input type="text">
-                </select> 
-                <br>
-                <p>Valor</p>
-                <input value="R$ 0,00">
-                <br>
-                <button class="adicionar" type="submit">Adiciona transação</button>
-            </form>
-        <hr class="line">
-        </section>
+        <div class="rectangle">
+            <div class="first">
+                <section class="firstsection">
+                    <form class="transactionform">
+                        <h1>Tipo de transação</h1><br>
+                        <select id="sale" name="sale">
+                            <option value="Compra">Compra</option>
+                            <option value="Venda">Venda</option>
+                        </select><br>
+                            <label for="name">Nome da mercadoria</label><br>
+                            <input type="text" placeholder="Input">
+                        </select><br> 
+                        <div class="inputvalor">
+                            <label class="valor" for="Valor">Valor</label>
+                            <input class="textvalor" type="number" placeholder="R$ 0,00">
+                        </div><br>
+                        <button class="adicionar" type="submit">Adiciona transação</button>
+                    </form>
+                </section>
+            </div>
+        
+            
+        </div>
     </body>
     <footer>
 
