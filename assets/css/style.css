@@ -1,0 +1,120 @@
+body {
+    position: relative;
+width: 1100px;
+height: 1000px;
+font-family: 'lato';
+
+background: #FFFFFF;
+}
+
+#container {
+    position: absolute;
+width: 1500px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #E0E0E0;
+}
+
+.container-topo {
+    position: absolute;
+width: 1100px;
+height: 79px;
+left: 200px;
+top: 0px;
+}
+
+.menu-horizontal {
+    position: absolute;
+width: 350px;
+height: 40px;
+right: 0px;
+top: 20px;
+
+background: #FFFFFF;
+}
+
+.line {
+    position: absolute;
+width: 20px;
+height: 0px;
+left: 117px;
+top: 10px;
+
+border: 1px solid #979797;
+transform: rotate(90deg);
+}
+
+.cadastro {
+    position: absolute;
+width: 77px;
+height: 32px;
+left: 20px;
+top: 4px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #333333;
+
+}
+
+.dados {
+    position: absolute;
+width: 57px;
+height: 32px;
+left: 137px;
+top: 4px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+
+.logoEtexto {
+    position: absolute;
+width: 471px;
+height: 43px;
+left: 0px;
+top: 19px;
+}
+
+.texto-logo {
+    position: absolute;
+width: 411px;
+height: 43px;
+left: 60px;
+top: 19px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #333333;
+
+}
+
+.img-logo {
+    position: absolute;
+width: 40px;
+height: 36.84px;
+left: 0px;
+top: 22px;
+
+}
