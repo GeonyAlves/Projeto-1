@@ -192,6 +192,165 @@ color: #333333;
     color: #888888;
 }
 
+.buttontransação {
+    position: absolute;
+left: 3.72%;
+right: 3.72%;
+top: 84.59%;
+bottom: 5.81%;
+}
+
+.bttransação {
+    position: absolute;
+height: 32px;
+left: 0%;
+right: 0%;
+top: 0.78px;
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #333333;
+border-radius: 4px;
+}
+
+.subtransação{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.mercadoria {
+    position: absolute;
+left: 3.72%;
+right: 3.72%;
+top: 40.12%;
+bottom: 43.31%;
+}
+
+.mercadoria label {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 60.78%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+color: #333333;
+}
+
+.mercinput {
+    position: absolute;
+width: 97%;
+height: 22px;
+left: 0px;
+top: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+
+color: #888888;
+}
+
+.retanguloinput {
+    box-sizing: border-box;
+
+position: absolute;
+height: 32px;
+left: 0px;
+right: 0.2px;
+top: 24px;
+
+background: #FFFFFF;
+border: 1px solid #979797;
+border-radius: 4px;
+}
+
+.titulo1 {
+    position: absolute;
+width: 174px;
+height: 20px;
+left: calc(50% - 174px/2);
+top: calc(50% - 20px/2 - 142px);
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.tipotransação {
+    position: absolute;
+left: 3.72%;
+right: 3.72%;
+top: 17.73%;
+bottom: 65.7%;
+}
+
+.tipotransação label {
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 61.01%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+
+color: #333333;
+}
+
+#sale {
+    box-sizing: border-box;
+    position: absolute;
+    height: 32px;
+    left: 0%;
+    right: 0%;
+    top: 25px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
 
 
 
