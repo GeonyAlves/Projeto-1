@@ -300,6 +300,59 @@ color: #333333;
     border-radius: 4px;
 }
 
+.formbotão {
+    position: absolute;
+left: 3.72%;
+right: 3.72%;
+top: 84.59%;
+bottom: 5.81%;
+}
+
+.botãoadicionar {
+    position: absolute;
+height: 32px;
+left: 0%;
+right: 0%;
+top: 0.78px;
+}
+
+.adicionartransação {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* @font-size-base: 14px */
+    
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    align-items: center;
+    text-align: center;
+    
+    /* @btn-primary-color */
+    
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #333333;
+border-radius: 4px;
+
+}
+
 .segundaseção {
     position: absolute;
     width: 548px;

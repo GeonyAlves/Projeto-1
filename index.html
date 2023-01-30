@@ -34,35 +34,36 @@
             </div>
         </header>
         <div class="rectangle">
-            <div class="first">
-                <section class="firstsection">
-                    <div class="transactionform">
-                        <h1 class="titulo1">Nova de transação</h1><br>
-                        <div class="tipotransação">
-                            <label>Tipo de transação</label>
-                            <select id="sale" name="sale">
-                                <div class="buttonCV">
-                                    <option value="Compra">Compra</option>
-                                    <option value="Venda">Venda</option>
-                                </div>
-                            </select><br>
+            <div class="transactionform">
+                <h1 class="titulo1">Nova de transação</h1><br>
+                <div class="tipotransação">
+                    <label>Tipo de transação</label>
+                    <select id="sale" name="sale">
+                        <div class="buttonCV">
+                            <option value="Compra">Compra</option>
+                            <option value="Venda">Venda</option>
                         </div>
-                        <div class="mercadoria">
-                            <label for="name">Nome da mercadoria</label><br>
-                            <div retanguloinput>
-                            <input class="mercinput" type="text" placeholder="Input">
-                            </div>
-                        </div>
-                        <br> 
-                        <div class="inputvalor">
-                            <label class="valor" for="Valor">Valor</label>
-                            <input class="textvalor" type="number" placeholder="R$ 0,00">
-                        </div><br>
-                        
-                        
+                    </select><br>
+                </div>
+                <div class="mercadoria">
+                    <label for="name">Nome da mercadoria</label><br>
+                    <div retanguloinput>
+                    <input class="mercinput" type="text" placeholder="Input">
                     </div>
-                </section>
+                </div>
+                <br> 
+                <div class="inputvalor">
+                    <label class="valor" for="Valor">Valor</label>
+                    <input class="textvalor" type="number" placeholder="R$ 0,00">
+                </div><br>
+                <form class="formbotão">
+                    <div class="botãoadicionar">
+                    <input class="adicionartransação" type="button" value="Adicionar transação">
+                    </div>            
+                </form>    
             </div>
+                
+            
         </div>
         <section class="segundaseção">
             <h1 class="titulo2">Extrato de transações</h1>
