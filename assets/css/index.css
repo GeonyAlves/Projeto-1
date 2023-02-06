@@ -79,8 +79,8 @@ html {
   }
   
   .nav_menu a:hover {
-    color: #070707;
-    background: #9c9c9c;
+    color: #333333;
+    background: #C4C4C4;
     font-weight: 600;
   }
   
@@ -91,7 +91,19 @@ html {
     padding: 0px;
   }
   
-   
+  .nav_menu_img {
+    margin-left: 20px;
+    margin-bottom: 26px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ .nav_menu {
+    display: block;
+    transform: translateX(-295px);
+  } 
     
   .secao {
     width: 100%;
