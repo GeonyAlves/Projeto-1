@@ -98,11 +98,13 @@ html {
   
   input[type="checkbox"] {
     display: none;
+    
   }
   
   input[type="checkbox"]:checked ~ .nav_menu {
     display: block;
     transform: translateX(-295px);
+    
   } 
     
   .secao {
