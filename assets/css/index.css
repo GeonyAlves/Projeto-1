@@ -139,7 +139,7 @@ html {
   .secao_botao {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     border-bottom: 1px solid #000;
     padding-bottom: 28px;
   }
@@ -178,7 +178,7 @@ html {
   .secao_2_titulo {
     font-size: 18px;
     font-weight: 700;
-    line-height: 22px;
+    line-height: 20px;
     margin-top: 41px;
   }
   
@@ -282,7 +282,7 @@ html {
       flex-direction: row;
       justify-content: center;
       width: 100%;
-      font-size: 18px;
+      font-size: 20px;
       margin: 20px 0px;
       font-weight: bold;
     }
