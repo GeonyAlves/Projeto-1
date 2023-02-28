@@ -1,117 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/index.css">
-  <title>Controle Financeiro</title>
-</head>
-<body>
-  <header>
-    <div class="header">
-      <div class="header_img">
-        <img class="imglogo" src="./assets/img/Ellipse 13.png" alt="Logotipo">
-      </div>
-
-      <div>
-        <span class="titulo">Controle Financeiro</span>
-      </div>
-
-      <div class="menu">
-        <input type="checkbox" id="chec">
-        <label class="nav_menu_rotulo" for="chec">
-          <img src="./assets/img/all/menu.png" alt="Menu">
-        </label>
-     
-        <nav class="nav_menu">
-          <ul>
-            <li>
-              <input type="checkbox" id="chec">
-              <label class="nav_menu_lateral" for="chec">
-              <img class="nav_menu_img" src="./assets/img/all/Vector.png" alt="Fechar">
-            </li>
-            <li><a class="linkcadastro" href="#">Cadastro de transações</a></li>
-            <li><a class="linklimpar" href="#">Limpar dados</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-    <section class="container_total">
-      <section>
-        <div class="secao">
-          <div class="secao_texto">
-            <div>Tipo de transação</div>
-            <div class="secao_entrada">
-              <select name="selecao" id="selecao">
-                <option value="compra" selected>Compra</option>
-                <option value="venda">Venda</option>
-              </select>
-            </div>
-          </div>
-    
-          <div class="secao_texto">
-            <div>Nome da mercadoria</div>
-            <div class="secao_input">
-              <input type="text" name="mercadoria" id="mercadoria" placeholder="Input">
-            </div>
-          </div>
-    
-          <div class="secao_texto">
-            <div>Valor</div>
-            <div class="secao_input">
-              <input type="number" name="valor" id="valor" placeholder="R$ 0,00">
-            </div>
-          </div>
-    
-          <div class="secao_botao">
-            <input class="button" type="button" value="Adicionar transação">
-          </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>Controle Financeiro</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header_img">
+          <img class="imglogo" src="./assets/img/Ellipse 13.png" alt="Logotipo">
         </div>
-      </section>
-    
-      <section>
-        <div class="secao_2">
-          <div class="secao_2_titulo">
-            <h1>Extrato de transações</h1>
-          </div>
-    
-    
-          <div class="tabela">
-            <div class="tabela_titulo">Mercadoria</div>
-            <div class="tabela_titulo">Valor</div>
-          </div>
-    
-          <div class="tabela">
-            <div class="tabela_corpo">+</div>
-            <div class="tabela_corpo">Lorem ipsum dolor sit amet consectetur</div>
-            <div class="tabela_corpo">R$ 12.999,99</div>
-          </div>
-    
-          <div class="tabela">
-            <div class="tabela_corpo">-</div>
-            <div class="tabela_corpo">Quis nostrud exercitation</div>
-            <div class="tabela_corpo">R$ 99,99</div>
-          </div>
-    
-          <div class="tabela">
-            <div class="tabela_corpo">+</div>
-            <div class="tabela_corpo">Lorem ipsum</div>
-            <div class="tabela_corpo">R$ 9,99</div>
-          </div>
-    
-          <div class="tabela">
-            <div class="tabela_rodape">Total</div>
-            <div class="tabela_rodape">R$ 12.909,99</div>
-            <div class="tabela_rodape">[LUCRO]</div>
-          </div>
-      </section>
-    </section>
 
-  <footer>
-    <div class="rodape"></div>
-  </footer>
-</body>
+        <div>
+          <span class="titulo">Controle Financeiro</span>
+        </div>
+
+        <div class="menu">
+          <input type="checkbox" id="chec">
+          <label class="nav_menu_rotulo" for="chec">
+            <img src="./assets/img/all/menu.png" alt="Menu">
+          </label>
+      
+          <nav class="nav_menu">
+            <ul>
+              <li>
+                <input type="checkbox" id="chec">
+                <label class="nav_menu_lateral" for="chec">
+                <img class="nav_menu_img" src="./assets/img/all/Vector.png" alt="Fechar">
+              </li>
+              <li><a class="linkcadastro" href="#">Cadastro de transações</a></li>
+              <li><a class="linklimpar" href="#">Limpar dados</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+      <section class="container_total">
+        <section>
+          <div class="secao">
+            <div class="secao_texto">
+              <div>Tipo de transação</div>
+              <div class="secao_entrada">
+                <select name="selecao" id="selecao">
+                  <option value="compra" selected>Compra</option>
+                  <option value="venda">Venda</option>
+                </select>
+              </div>
+            </div>
+      
+            <div class="secao_texto">
+              <div>Nome da mercadoria</div>
+              <div class="secao_input">
+                <input type="text" name="mercadoria" id="mercadoria" required placeholder="Input" >
+              </div>
+            </div>
+      
+            <div class="secao_texto">
+              <div>Valor</div>
+              <div class="secao_input">
+                <input type="number" name="valor" id="valor" required onkeypress="testanumero(event)" placeholder="R$ 0,00" >
+              </div>
+            </div>
+      
+            <div class="secao_botao">
+              <input class="button" type="button" value="Adicionar transação">
+            </div>
+          </div>
+        </section>
+      
+        <section>
+          <div class="secao_2">
+            <div class="secao_2_titulo">
+              <h1>Extrato de transações</h1>
+            </div>
+      
+      
+            <div class="tabela">
+              <div class="tabela_titulo">Mercadoria</div>
+              <div class="tabela_titulo">Valor</div>
+            </div>
+      
+            
+        </section>
+      </section>
+
+    <footer>
+      <div class="rodape"></div>
+    </footer>
+    <script src="./assets/js/index.js"></script>
+    
+   </body>
 </html>
